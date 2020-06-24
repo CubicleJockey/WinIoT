@@ -9,6 +9,9 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBox x:Name="HelloMessage" Text="Hello, World!" Margin="10" IsReadOnly="True" />
+            <Button x:Name="ClickMe" Content="Click Me!" Margin="10" HorizontalAlignment="Center" Click="ClickMe_OnClick"/>
+        </StackPanel>
     </Grid>
 </Page>
